@@ -33,7 +33,7 @@ def get_food_list():
             "SELECT id,食物名称 from foodinfo WHERE `食物名称` LIKE '%{}%'".format(food_name))
     result = cursor.fetchall()
     if len(result) == 0:
-        return control.fail("您搜索的食物不存在，请重新输入")
+        return control.fail("您的输入有误或搜索的食物不存在，请重新输入！")
     else:
         for i in result:
             dictionary = {

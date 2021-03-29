@@ -84,7 +84,7 @@ PyDispatcher==2.0.5
 pyecharts==1.6.2
 PyExecJS==1.5.1
 pygal==2.4.0
-Pygments==2.5.2
+Pygments==2.7.4
 PyHamcrest==2.0.0
 PyInstaller==3.6
 PyMySQL==0.9.3
